@@ -65,7 +65,6 @@ do
 		    echo "$ARG: $NAME already running (pid $PID)"
 		    continue
 		fi
-		eval $BINARY
 		echo "$0 $ARG: Starting up $NAME..."
 		if $BINARY ; then
 		    echo "$0 $ARG: $NAME started"
